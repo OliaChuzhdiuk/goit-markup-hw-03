@@ -42,16 +42,16 @@
                                 margin: 0 auto;
                                }
                                *, ::before, ::after{
-                                   box-sizing: border-box;
+                                box-sizing: border-box;
                                }
                                div {
-                                   display: block;
+                                display: block;
                                }
                                .header{
                                 
-                                   padding-top: 24px;
-                                   padding-bottom: 25px;
-                                   border: 1px solid #ECECEC;
+                                padding-top: 24px;
+                                padding-bottom: 25px;
+                                border: 1px solid #ECECEC;
                                }
                                .header-nav {
                                 display: flex;
@@ -89,10 +89,10 @@
                                }
                                 .menu-item:not( :last-child) {
                                 margin-right:50px;
-                              }
+                               }
                                .menu-list{ 
                                 display: flex;
-                            }
+                                }
                                .list {
                                 padding: 0;
                                 margin: 0;
@@ -245,10 +245,10 @@
                                }
                                /* ABOUT */
                                                             
-                            .about-list{
+                                .about-list{
                                 display: flex;
                                 justify-content: space-evenly;
-                            }
+                                }
                             
                                .about-title {
                                 text-align: center;
@@ -320,8 +320,7 @@
                                 padding-top: 30px;
                                 text-align: center;
                                 background-color: var(--primery-background-color);
-
-                            }
+                                }
                                /* FOOTER */
                                
                                .footer {
@@ -391,44 +390,40 @@
                                    background-color: var(--accent-text-color);
                                    color: var(--secondary-title-color)
 
-                               }
-                            .buttons-list {
+                                 }
+                                .buttons-list {
                                 margin-top: 94px;
                                 margin-bottom: 50px;
                                 display: flex;
                                 justify-content: center;
                                
-                            }
-                            .buttons_{
+                                }
+                                 .buttons_{
                                 padding-top: 90px;
                                 padding-bottom: 90px;
-                            }
-                            .buttons-item:not(:last-child){
+                                }
+                                .buttons-item:not(:last-child){
                                 margin-right: 8px;
-                            }
+                                }
                                 
                                /* Portfolio-item */
                                
                                .foto-list {
-                                   display: flex;
-                                   flex-wrap: wrap;
-                                   margin-top: -30px;
-                                    margin-left: -30px;
+                                display: flex;
+                                flex-wrap: wrap;
+                                margin-top: -30px;
+                                margin-left: -30px;
                              
-                                   
-
-                                   font-weight: 700;
-                                   font-size: 18px;
-                                   line-height: 2;
-                                   letter-spacing: 0.06em;
-                                   color: var(--primery-text-color);
+                                font-weight: 700;
+                                font-size: 18px;
+                                line-height: 2;
+                                letter-spacing: 0.06em;
+                                color: var(--primery-text-color);
                                }
                                .foto-item {
-                                   flex-basis: calc((100% - 3 * 30px) / 3);
-                                   margin-left: 30px;
-                                   margin-top: 30px;
-                                  
-                                   
+                                flex-basis: calc((100% - 3 * 30px) / 3);
+                                margin-left: 30px;
+                                margin-top: 30px; 
                                }
                                .foto-name {
                                 padding-top: 20px;
@@ -436,26 +431,22 @@
                                 font-size: 18px;
                                 line-height: 2;
                                 letter-spacing: 0.06em;
-                                
-                             
                                }
                                .foto-text {
-                                   padding-bottom: 20px;
-                                   font-size: 16px;
-                                   line-height: 1.87;
-                                   letter-spacing: 0.03em;
-                                   color: var(--secondary-text-color);
-
+                                padding-bottom: 20px;
+                                font-size: 16px;
+                                line-height: 1.87;
+                                letter-spacing: 0.03em;
+                                color: var(--secondary-text-color);
                                }
                                .portfolio-container{
-                                   margin-bottom: 94px;
-                                   
+                                margin-bottom: 94px;   
                                 }
                                 .portfolio-name{
-                                    border: 1px solid #EEEEEE
+                                border: 1px solid #EEEEEE
                                 }
                                 img {
-                                    display: block;
-                                    width: 100%;
-                                    height: auto;
-                                    }
+                                display: block;
+                                 width: 100%;
+                                height: auto;
+                                }
