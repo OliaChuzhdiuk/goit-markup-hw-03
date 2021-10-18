@@ -9,38 +9,34 @@
    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="./css/style.css"/>
 </head>
-
-
 
 <body>
     <!-- Шапка сайта -->
     <header class="header">
-    <div class="container header-container">
-        <nav class="header-nav">
-            <a href="./index.html" class="header-logo link"><span class="web">Web</span>Studio</a>
-            <ul class="menu-list list">
-                <li class="menu-item"><a href="./index.html" class="menu-link link accent">Студия</a></li>
-                <li class="menu-item"><a href="./portfolio.html" class="menu-link link ">Портфолио</a></li>
-                <li class="menu-item"><a href="./index.html" class="menu-link link">Контакты</a></li>
+        <div class="container header-container">
+            <nav class="header-nav">
+                <a href="./index.html" class="header-logo link"><span class="web">Web</span>Studio</a>
+                <ul class="menu-list">
+                    <li class="menu-item"><a href="./index.html" class="menu-link link accent">Студия</a></li>
+                    <li class="menu-item"><a href="./portfolio.html" class="menu-link link ">Портфолио</a></li>
+                    <li class="menu-item"><a href="./index.html" class="menu-link link">Контакты</a></li>
+                </ul>
+            </nav> 
+            <ul class="contacts">
+                <li class="contacts-item"><a href="mailo:info@devstudio.com" class="contacts-mail link">info@devstudio.com</a></li>
+                <li class="contacts-item"><a href="tel:+380961111111" class="contacts-tel link">+38 096 111 11 11</a></li>
             </ul>
-        </nav> 
-        <div class="header-contacts">
-        <ul class="contacts list">
-            <li class="contacts-item"><a href="mailo:info@devstudio.com" class="contacts-mail link">info@devstudio.com</a></li>
-            <li class="contacts-item"><a href="tel:+380961111111" class="contacts-tel link">+38 096 111 11 11</a></li>
-        </ul>
         </div>
-       </div>
-    </header>
+        </header>
+</body>
 
     <!-- Заказать услугу -->
     <main>
-        <section class="hero">
+        <section class="hero section">
             <div class="container"> 
                 <h1 class="hero-title">
                     Эффективные решения <br> для вашего бизнеса
@@ -49,7 +45,7 @@
             </div>
         </section>
         <!-- Достижение -->
-        <section class="feature">
+        <section class="feature section">
         <div class="container">
             <h2 class="feature-title visually-hidden">Достижение</h2>
             <ul class="feature-list list">
@@ -73,10 +69,10 @@
         </div>
         </section>
         <!-- Чем занимаемся -->
-        <section class="about about-container">
+        <section class="section about-section">
         <div class="container">
             <h2 class="about-title">Чем мы занимаемся</h2>
-            <ul class="about-list list">
+            <ul class="about-list">
                 <li class="about-item">
                     <img src="./images/box1.jpg" alt="Hands_and_computer" width="370">
                 </li>
@@ -90,10 +86,10 @@
         </div>
         </section>
         <!-- Наша команда -->
-        <section class="company">
+        <section class="section company">
         <div class="container">
             <h2 class="company-title"> Наша команда</h2>
-            <ul class="company-list list">
+            <ul class="company-list">
                 <li class="company-item">
                     <img src="./images/man(1).jpg" alt="photo_of_a_man" width="270">
                 <div class="company-list-name">
@@ -132,7 +128,7 @@
     <div class="container">
         <a href="./index.html" class="fotter-logo link"><span class="web">Web</span>Studio</a>
         <address class="footer-address">
-            <ul class="footer-list list">
+            <ul class="footer-list">
                 <li class="footer-item"><a href="" class="footer-link link">г. Киев, пр-т Леси Украинки, 26</a></li>
                 <li class="footer-item"><a href="mailo:info@example.com"class="footer-mail link">info@example.com</a></li>
                 <li class="footer-item"><a href="tel:+380991111111"class="footer-tel link">+38 099 111 11 11</a></li>
